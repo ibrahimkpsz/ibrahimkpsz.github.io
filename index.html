@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <title>Ibrahim Kapusuz</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_userAvatar.svg/1200px-OOjs_UI_icon_userAvatar.svg.png">
+    <script type="text/javascript">
+
+        function IE(e) {
+             if (navigator.appName == "Microsoft Internet Explorer" && (event.button == "2" || event.button == "3")) {
+                  alert('!!!');
+                  return false;
+             }
+        }
+        function NS(e) {
+             if (document.layers || (document.getElementById && !document.all)) {
+                  if (e.which == "2" || e.which == "3") {
+                       alert('!!!');
+                       return false;
+                  }
+             }
+        }
+        document.onmousedown=IE;document.onmouseup=NS;document.oncontextmenu=new Function("return false");
+        //-->
+        </script>
+</head>
+<body>
+    <!-- nav start -->
+     <header>
+        <a href="#" class="logo">Ibrahim Kapusuz</a>
+    </header><hr>
+    <!-- nav end -->
+    
+    
+    <section>
+        <div class="container">
+            <img width="300" src="logo.png" alt="">
+            <div class="main-section">
+                <h1>Ibrahim Kapusuz</h1>
+                <p>Front End Developer</p>
+                <a class="contact" href="mailto:ibrahimkpsz@outlook.com"><button>Contact</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="project-section">
+            <div>
+                <h1 style="color:#111111; text-align: center; padding-bottom:1em;">Project</h1>
+                <ul class="project-links">
+                    <li><a href=""><button>Google Clone Page</button></a></li><br>
+                    <li><a href=""><button>Survey Form</button></a></li><br>
+                    <li><a href=""><button>Tribute Page</button></a></li><br>
+                    
+                </ul>
+            </div>
+        </div>
+    </section> 
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script>
+        var options = {
+        bottom: '64px', // default: '32px'
+        right: 'unset', // default: '32px'
+        left: '32px', // default: 'unset'
+        time: '0.5s', // default: '0.3s'
+        mixColor: '#fff', // default: '#fff'
+        backgroundColor: '#fff',  // default: '#fff'
+        buttonColorDark: '#100f2c',  // default: '#100f2c'
+        buttonColorLight: '#fff', // default: '#fff'
+        saveInCookies: true, // default: true,
+        label: '&#x1f313;', // default: ''
+        autoMatchOsTheme: true // default: true
+}
+
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+    </script>
+    <script src="https://your-site-or-cdn.com/fontawesome/v6.1.0/js/all.js" data-auto-replace-svg="nest"></script>
+</body>
+</html>
