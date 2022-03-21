@@ -11,14 +11,14 @@
 
         function IE(e) {
              if (navigator.appName == "Microsoft Internet Explorer" && (event.button == "2" || event.button == "3")) {
-                  alert('Sağ tıklamak yasak!');
+                  alert('!!!');
                   return false;
              }
         }
         function NS(e) {
              if (document.layers || (document.getElementById && !document.all)) {
                   if (e.which == "2" || e.which == "3") {
-                       alert('Sağ tıklamak yasak!');
+                       alert('!!!');
                        return false;
                   }
              }
@@ -27,11 +27,11 @@
         //-->
         </script>
 </head>
-<body>
+<body style="background-color: rgb(34, 34, 34); ">
     <!-- nav start -->
      <header>
-        <a href="#" class="logo">Ibrahim Kapusuz (mobile version not ready!)</a>
-    </header><hr>
+        <a href="#" class="logo">Ibrahim Kapusuz</a>
+    </header>
     <!-- nav end -->
     
     
@@ -51,7 +51,7 @@
             <div>
                 <h1 style="color:#111111; text-align: center; padding-bottom:1em;">Project</h1>
                 <ul class="project-links">
-                    <li><a href="https://google-search-clone-page.ibrahimkpsz.repl.co/?" target="_blank"><button>Google Clone Page</button></a></li><br>
+                    <li><a href="https://google-search-clone-page.ibrahimkpsz.repl.co/" target="_blank"><button>Google Search Clone Page</button></a></li><br>
                     <li><a href="https://survey-form.ibrahimkpsz.repl.co/" target="_blank"><button>Survey Form</button></a></li><br>
                     <li><a href="https://tribute-page.ibrahimkpsz.repl.co/" target="_blank"><button>Tribute Page</button></a></li><br>
                     
@@ -59,24 +59,7 @@
             </div>
         </div>
     </section> 
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
-    <script>
-        var options = {
-        bottom: '64px',
-        right: 'unset', 
-        left: '32px', 
-        time: '0.5s', 
-        mixColor: '#fff', 
-        backgroundColor: '#fff',
-        buttonColorDark: '#100f2c', 
-        buttonColorLight: '#fff', 
-        saveInCookies: true, 
-        label: '&#x1f313;',
-        autoMatchOsTheme: true
-}
-        const darkmode = new Darkmode(options);
-        darkmode.showWidget();
-    </script>
+
     <script src="https://your-site-or-cdn.com/fontawesome/v6.1.0/js/all.js" data-auto-replace-svg="nest"></script>
 </body>
 </html>
