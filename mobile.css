@@ -1,0 +1,124 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        width: 100%;
+        background-color: #1515152c;
+        font-family: "Montserrat", sans-serif;
+        overflow: hidden;
+        
+    }
+
+    /* Navigation */
+
+    #main-nav {
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logo {
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    /* Main Container */
+
+    #main-container {
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+        color: #fff;
+    }
+
+    .container {
+        padding:150px;
+        background-color: #000000;
+        height: 100vh;
+    }
+
+    .main-section {
+        text-align: center;
+        margin-top:10px;
+    }
+
+    .container img {
+        border-radius: 50px;
+        color: #fff;
+    }
+
+    .contact button {
+        color: #fff;
+        padding: 6px 16px;
+        border-radius: 15px;
+        border: 2px solid white;
+        margin-top: 10px;
+        background-color: black;
+        cursor: pointer;
+        transition: all 0.1s ease-in 0.1s;
+    }
+
+    .contact button:hover {
+        padding: 6px 16px;
+        border-radius: 15px;
+        border: 2px solid white;
+        background-color: #fff;
+        color: #000000;
+        margin-top: 10px;
+        transition: all 0.1s ease-in 0.1s;
+    }
+
+    /* Project Container */
+
+    #project-container {
+        width:calc(50% - 5px) ;
+        display: inline-block;
+        height: 100vh;
+        vertical-align: top;
+        padding: 20px;
+    }
+
+    #project-container h1 {
+        text-align: center;
+        margin-top:170px;
+    }
+
+    .project-links {
+        list-style: numbers;
+        padding: 30px;
+    }
+
+    .project-link button {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border:2px solid #000000;
+        background-color: #0d0d0d;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.1s ease-in 0.1s;
+    }
+
+    .project-link button:hover {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid black;
+        background-color: #fff;
+        color: black;
+        cursor: pointer;
+        transition: all 0.1s ease-in 0.1s;
+    }
+
+    ::selection {
+        color: red;
+    }
