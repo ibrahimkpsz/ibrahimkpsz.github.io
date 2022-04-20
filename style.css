@@ -93,6 +93,38 @@
         font-weight: 300;
         margin-top: 10px;
     }
+
+    form {
+        margin-top: 50px;
+    }
+    
+    #mail {
+        width: 370px;
+        padding: 13px 20px;
+        color: #000;
+        font-size: 18px;
+        border-radius: 50px;
+        border: 1px solid transparent;
+    }
+
+    #submit {
+        padding: 13px 25px;
+        display: inline-block;
+        position: absolute;
+        right: 61px;
+        top:283px;
+        border-radius:50px;
+        border: 1px solid transparent;
+        background-color: #FD5D5D;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+        transition: .4s;
+    }
+
+    #submit:hover {
+        background-color: #fa5252;
+    }
     
     /* Hakkında Bölümü Kodları */
     
