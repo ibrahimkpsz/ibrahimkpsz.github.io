@@ -1,220 +1,222 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-::selection {
-    color: #fff;
-    background-color: #FD5D5D;
-}
-/* Ana Bölüm Kodları */
-
-.main {
-    background-color: black;
-    height: 100vh;
-    width: 100%;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top:40px;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-
-nav ul li {
-    list-style: none;
-    display:inline-block;
-    padding: 10px 25px;
-}
-
-nav ul li a:hover {
-    color: #FD5D5D;
-    transition: .3s;
-}
-
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
-}
-
-.logo {
-    color: #fff;
-    font-size: 35px;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-
-.btn {
-    text-decoration: none;
-    color: #fff;
-    background-color: #FD5D5D;
-    padding: 10px 25px;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    transition: transform .4s;
-}
-
-.btn:hover {
-    transform: scale(1.15);
-}
-
-.content {
-    color: #fff;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%,-50%);
-}
-
-.content h1{
-    font-size: 60px;
-    color: #FD5D5D;
-    margin-top: 10px;
-}
-
-.content h2{
-    font-size: 50px;
-    font-weight: 400;
-}
-
-.content h3{
-    font-size: 20px;
-    font-weight: 300;
-    margin-top: 10px;
-}
-
-/* Hakkında Bölümü Kodları */
-
-span {
-    color: #FD5D5D;
-}
-
-.about {
-    width:100%;
-    background-color: rgba(0, 0, 0, 0.993);
-    padding: 100px 0px;
-}
-
-.about-box {
-    width: 1150px;
-    max-width: 95%;
-    margin: 0 auto;
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.about-box img {
-    width: 360px;
-    height: auto;
-    border-radius: 20px;
-}
-
-.aboutme {
-    width: 700px;
-    color: #fff;
-    margin-bottom: 180px;
-}
-
-.aboutme h1 {
-    font-size: 60px;
-    margin-bottom: 5px;
-}
-
-.aboutme h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.aboutme p {
-    font-size: 18px;
-    line-height: 27.5px;
-}
-
-/* Çalışmalarım Kısmı Kodları */
-
-.works {
-    padding: 100px 0px;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-}
-
-.works h2 {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 50px;
-    font-size: 35px;
-}
-
-.box {
-    width: 1150px;
-    max-width: 90%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.card {
-    width: 350px;
-    background-color: #ffffff;
-    color: #000;
-    text-align: center;
-    padding: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 50px;
-    line-height: 1.3;
-}
-
-/* Footer Kısmı Kodları */
-
-.footer {
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    padding: 50px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.993);
-}
-
-
-.footer h1{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.footer p{
-    margin-top: 20px;
-}
-
-
-.socialmedia {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.socialmedia a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    background-color: #FD5D5D;
-    padding: 10px;
-    color: #fff;
-    border-radius: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
+@media screen and (min-width:769px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    ::selection {
+        color: #fff;
+        background-color: #FD5D5D;
+    }
+    /* Ana Bölüm Kodları */
+    
+    .main {
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top:40px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    
+    nav ul li {
+        list-style: none;
+        display:inline-block;
+        padding: 10px 25px;
+    }
+    
+    nav ul li a:hover {
+        color: #FD5D5D;
+        transition: .3s;
+    }
+    
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .logo {
+        color: #fff;
+        font-size: 35px;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+    
+    .btn {
+        text-decoration: none;
+        color: #fff;
+        background-color: #FD5D5D;
+        padding: 10px 25px;
+        border-radius: 20px;
+        border: 2px solid transparent;
+        transition: transform .4s;
+    }
+    
+    .btn:hover {
+        transform: scale(1.15);
+    }
+    
+    .content {
+        color: #fff;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%,-50%);
+    }
+    
+    .content h1{
+        font-size: 60px;
+        color: #FD5D5D;
+        margin-top: 10px;
+    }
+    
+    .content h2{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    
+    .content h3{
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    
+    /* Hakkında Bölümü Kodları */
+    
+    span {
+        color: #FD5D5D;
+    }
+    
+    .about {
+        width:100%;
+        background-color: rgba(0, 0, 0, 0.993);
+        padding: 100px 0px;
+    }
+    
+    .about-box {
+        width: 1150px;
+        max-width: 95%;
+        margin: 0 auto;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .about-box img {
+        width: 360px;
+        height: auto;
+        border-radius: 20px;
+    }
+    
+    .aboutme {
+        width: 700px;
+        color: #fff;
+        margin-bottom: 180px;
+    }
+    
+    .aboutme h1 {
+        font-size: 60px;
+        margin-bottom: 5px;
+    }
+    
+    .aboutme h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .aboutme p {
+        font-size: 18px;
+        line-height: 27.5px;
+    }
+    
+    /* Çalışmalarım Kısmı Kodları */
+    
+    .works {
+        padding: 100px 0px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .works h2 {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 50px;
+        font-size: 35px;
+    }
+    
+    .box {
+        width: 1150px;
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .card {
+        width: 350px;
+        background-color: #ffffff;
+        color: #000;
+        text-align: center;
+        padding: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 50px;
+        line-height: 1.3;
+    }
+    
+    /* Footer Kısmı Kodları */
+    
+    .footer {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        padding: 50px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.993);
+    }
+    
+    
+    .footer h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .footer p{
+        margin-top: 20px;
+    }
+    
+    
+    .socialmedia {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .socialmedia a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        background-color: #FD5D5D;
+        padding: 10px;
+        color: #fff;
+        border-radius: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
 }
