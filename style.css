@@ -1,4 +1,4 @@
-@media screen and (min-width:769px){
+@media screen and (min-width:768px){
     * {
         margin: 0;
         padding: 0;
@@ -109,11 +109,7 @@
 
     #submit {
         padding: 13px 25px;
-        display: inline-block;
-        position: absolute;
-        right: 61px;
-        top:283px;
-        border-radius:50px;
+        border-radius:20px 20px 20px 20px;
         border: 1px solid transparent;
         background-color: #FD5D5D;
         color: #fff;
@@ -150,7 +146,7 @@
     .about-box img {
         width: 360px;
         height: auto;
-        border-radius: 20px;
+        border-radius: 50px;
     }
     
     .aboutme {
