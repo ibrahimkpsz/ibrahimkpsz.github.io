@@ -111,17 +111,14 @@
 
     #submit {
         padding: 10px 10px;
-        display: inline-block;
-        position: absolute;
-        right: 52px;
-        top:291px;
-        border-radius:50px;
+        border-radius:20px;
         border: 1px solid transparent;
         background-color: #FD5D5D;
         color: #fff;
         font-size: 15px;
         cursor: pointer;
         transition: .4s;
+        margin-top: 15px;
     }
 
     #submit:hover {
