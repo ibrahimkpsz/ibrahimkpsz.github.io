@@ -95,35 +95,6 @@
         margin-top: 10px;
     }
 
-    form {
-        margin-top: 50px;
-    }
-    
-    #mail {
-        width: 250px;
-        padding: 13px 20px;
-        color: #000;
-        font-size: 13px;
-        border-radius: 50px;
-        border: 1px solid transparent;
-        margin: 0px 50px;
-    }
-
-    #submit {
-        padding: 10px 10px;
-        border-radius:20px;
-        border: 1px solid transparent;
-        background-color: #FD5D5D;
-        color: #fff;
-        font-size: 15px;
-        cursor: pointer;
-        transition: .4s;
-        margin-top: 15px;
-    }
-
-    #submit:hover {
-        background-color: #fa5252;
-    }
     
     /* Hakkında Bölümü Kodları */
     
@@ -208,6 +179,47 @@
         margin-bottom: 50px;
     }
     
+     /* Contact Kısmı Kodları */
+
+     form label {
+        color: #fff;
+     }
+
+     .contact-box {
+        width:100%;
+        height:220px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.993);
+        padding: 50px 10px;
+    }
+
+    #mail {
+        width: 250px;
+        padding: 13px 20px;
+        color: #000;
+        font-size: 13px;
+        border-radius: 50px;
+        border: 1px solid transparent;
+        margin: 0px 50px;
+    }
+
+    #submit {
+        padding: 10px 25px;
+        border-radius:20px;
+        border: 1px solid transparent;
+        background-color: #FD5D5D;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+        transition: .4s;
+        margin-top: 15px;
+    }
+
+    #submit:hover {
+        background-color: #fa5252;
+    }
+    
+
     /* Footer Kısmı Kodları */
     
     .footer {
