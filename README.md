@@ -1,2 +1,1 @@
-![ibrahimkpsz github io_ (1)](https://user-images.githubusercontent.com/93386915/164468840-89192929-365f-4cbf-8405-fcb1a6292a47.png)
-
+![ibrahimkpsz github io_](https://user-images.githubusercontent.com/93386915/165153947-4f055bf7-e89b-41b9-ba0a-345d699c7a66.png)
